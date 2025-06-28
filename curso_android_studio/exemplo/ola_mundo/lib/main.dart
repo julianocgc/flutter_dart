@@ -4,8 +4,13 @@ void main() {
   runApp(
 
       MaterialApp(
-        home: Center(
-          child: Text('ola mundo', style: TextStyle(fontSize: 50, color: Colors.white)),
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text('Aplicativo Olá Mundo'),
+          ),
+        body: Center(
+          child: Text('ola mundo', style: TextStyle(fontSize: 50, color: Colors.black)),
+        ),
         ),
       ),
   );
