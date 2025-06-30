@@ -4,8 +4,11 @@ void main() {
   // Meu primeiro código em Flutter
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Olá mundo!'),
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('Eu Sou Rico'),
+      ),
       ),
     ),
   );
